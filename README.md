@@ -12,7 +12,7 @@
 
 <br><br>
 
-**[Start where you are](#start)** &nbsp;·&nbsp; **[The library](#library)** &nbsp;·&nbsp; **[Find by goal](#goal)** &nbsp;·&nbsp; **[Master catalog](CATALOG.md)** &nbsp;·&nbsp; **[Study paths](docs/study-paths.md)**
+**[Start where you are](#start)** &nbsp;·&nbsp; **[The library](#library)** &nbsp;·&nbsp; **[Map](#map)** &nbsp;·&nbsp; **[Find by goal](#goal)** &nbsp;·&nbsp; **[Catalog](CATALOG.md)** &nbsp;·&nbsp; **[Study paths](docs/study-paths.md)**
 
 </div>
 
@@ -58,6 +58,41 @@ Folders are **numbered as a rough progression** — but dip in anywhere. Each ha
 📚 **[books/](books/)** free & public-domain books &nbsp;·&nbsp; 🗂️ **[CATALOG.md](CATALOG.md)** everything indexed &nbsp;·&nbsp; 🧭 **[docs/](docs/)** study paths · glossary · provenance
 
 <sub>Housekeeping: `_todo/` (e.g. tsumego photos awaiting SGF) · `_inbox/` (new, unsorted drops).</sub>
+
+<a id="map"></a>
+
+### 🧭 Map of the collection
+
+<sub>⭐ **Don't-miss:** [422 graded problems *with solutions*](02-life-and-death/graded/gogameguru-weekly/) · [Kogo's Joseki Dictionary](05-joseki/) · [Shape Up!](06-shape/) · [the classic masters](10-whole-games/classic/) &amp; [AlphaGo games](10-whole-games/ai-era/) · [Cho's shape-organized life & death](02-life-and-death/collections/importable-sgf/).</sub>
+
+<details>
+<summary><b>Expand the full directory map</b></summary>
+
+```text
+baduk-study-material/
+├─ 01-rules-basics/
+├─ 02-life-and-death/          ⭐ the engine room — do a little every day
+│  ├─ graded/                  gogameguru-weekly (422, with solutions) · drills-pdf
+│  ├─ special-shapes/          L/J-group · carpenter's square · from-joseki
+│  └─ collections/             importable classic SGF · scanned books · problem-books-pdf
+├─ 03-tesuji/                  + booklets-pdf (Great Tesuji Encyclopedia, Segoe…)
+├─ 04-opening-fuseki/
+├─ 05-joseki/                  Kogo's Joseki Dictionary ⭐
+├─ 06-shape/                   Shape Up! ⭐
+├─ 07-middlegame-fighting/     invasions + fighting booklets
+├─ 08-endgame-yose/            endgame booklets (Go Seigen, Sakata, Nie Weiping…)
+├─ 09-positional-judgment/
+├─ 10-whole-games/             ⭐ classic/ · modern/ · ai-era/ · by-tournament/ · collections/
+├─ 11-handicap/
+├─ 12-proverbs-principles/
+├─ 13-ai-and-tools/            KataGo · KaTrain · Lizzie · how to study with AI
+├─ 14-reference/               ranks · rules · glossary
+├─ books/                      free & public-domain (Arthur Smith 1908, Relentless…)
+├─ docs/                       CATALOG · study-paths · glossary · provenance
+├─ _inbox/                     unsorted drops
+└─ _todo/                      e.g. tsumego photos → SGF
+```
+</details>
 
 <a id="goal"></a>
 

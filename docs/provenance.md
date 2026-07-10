@@ -76,8 +76,8 @@ In-print commercial books — Kiseido *Elementary Go Series*, Kano's *Graded Go 
 Kiseido scans was deliberately **excluded**.
 
 ## Housekeeping
-- [`_inbox/master-series-gb2312-duplicate/`](../_inbox/) — a garbled-encoding duplicate of the
-  AlphaGo "Master" games; slated for deletion once confirmed redundant.
+- Removed a garbled-encoding (GB2312) duplicate of the AlphaGo "Master" games; the clean, labeled
+  copy lives in [`10-whole-games/ai-era/alphago-master-series/`](../10-whole-games/ai-era/alphago-master-series/).
 
 ## Expansion roadmap (verified leads not yet pulled)
 Foreign-language sources to mine next (need a browser / in-region access; not bulk-scraped out of

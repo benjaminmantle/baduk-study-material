@@ -1,78 +1,93 @@
-# Baduk Study Material
-### A free, open, curated library for studying Go (囲碁) · Baduk (바둑) · Weiqi (围棋)
+<div align="center">
 
-> Game records, life & death, joseki, whole games, books, and reference — organized so a
-> beginner isn't overwhelmed and a dan player still finds gold. Everything here is free to
-> download and study.
+<img src="docs/assets/banner.svg" alt="Baduk Study Material — a free, open library for studying Go / Baduk / Weiqi" width="100%">
 
-**Why this exists:** Go positions and game records are a shared human heritage — they should be
-open to everyone. This is a hand-curated collection of the best *freely available* study material,
-sorted by **topic** and by **strength**, so you always know where to start and what's next.
+<br><br>
 
----
+<a href="https://github.com/benjaminmantle/baduk-study-material/stargazers"><img src="https://img.shields.io/github/stars/benjaminmantle/baduk-study-material?style=flat-square&color=e3b341&labelColor=15222e" alt="Stars"></a>
+&nbsp;<img src="https://img.shields.io/badge/all_material-free-2ea44f?style=flat-square&labelColor=15222e" alt="All material free">
+&nbsp;<img src="https://img.shields.io/badge/SGF-676-4c8dae?style=flat-square&labelColor=15222e" alt="676 SGF files">
+&nbsp;<img src="https://img.shields.io/badge/PDF_booklets-133-8957e5?style=flat-square&labelColor=15222e" alt="133 PDF booklets">
+&nbsp;<img src="https://img.shields.io/badge/pro_game_archives-21-d98e3b?style=flat-square&labelColor=15222e" alt="21 pro-game archives">
 
-## 🚀 Start here
+<br><br>
 
-Pick the row that sounds like you:
+**[Start where you are](#start)** &nbsp;·&nbsp; **[The library](#library)** &nbsp;·&nbsp; **[Find by goal](#goal)** &nbsp;·&nbsp; **[Master catalog](CATALOG.md)** &nbsp;·&nbsp; **[Study paths](docs/study-paths.md)**
 
-| You are… | Rank | Start with |
-|---|---|---|
-| Just learned the rules | ~30k–20k | [01 Rules & Basics](01-rules-basics/) → very easy [Life & Death](02-life-and-death/graded/) → play a lot of games |
-| Getting the hang of it | 20k–10k · **DDK** | [Graded tsumego](02-life-and-death/graded/) · [Opening principles](04-opening-fuseki/) · [Proverbs](12-proverbs-principles/) |
-| Pushing toward dan | 9k–1k · **SDK** | [Tsumego](02-life-and-death/) + [Tesuji](03-tesuji/) daily · [Joseki](05-joseki/) · [Whole games](10-whole-games/) · [Endgame](08-endgame-yose/) |
-| Dan & climbing | 1d+ | [Special shapes](02-life-and-death/special-shapes/) · [AI-era games](10-whole-games/ai-era/) · [Positional judgment](09-positional-judgment/) · [Study with AI](13-ai-and-tools/) |
+</div>
 
-Full ordered routes — including *how much time to spend on what* — are in **[docs/study-paths.md](docs/study-paths.md)**.
+<br>
 
----
+> **Go positions and game records are a shared human heritage — they should be open to everyone.**
+> This is a hand-curated library of the best *freely available* material for studying
+> **Go** (囲碁) · **Baduk** (바둑) · **Weiqi** (围棋) — sorted by topic and by strength, so you
+> always know what to study next.
+
+<a id="start"></a>
+
+## 🚀 Start where you are
+
+New material is exciting, but studying the *wrong* thing for your level is the classic way to
+stall. Find your row, lean into its column — and cheerfully **defer** the rest until later.
+
+| Stage | You are… | 🟢 Lean into | 🟠 Not yet — defer |
+|:--|:--|:--|:--|
+| 🌱 **Beginner** | ~30k–18k · just learned the rules | [Rules & basics](01-rules-basics/) · *very easy* [tsumego](02-life-and-death/graded/) · lots of 9×9 / 13×13 · a few [proverbs](12-proverbs-principles/) | Joseki memorization, fuseki theory, endgame, pro-game study — all just noise right now |
+| 🌿 **DDK** | ~18k–10k · groups mostly live | daily [graded tsumego](02-life-and-death/graded/) · basic [tesuji](03-tesuji/) · opening **principles** ([04](04-opening-fuseki/)) · move to 19×19 · review your losses | Joseki *dictionaries* · deep counting · positional judgment |
+| 🍃 **SDK** | ~9k–1k · chasing dan | harder [tsumego](02-life-and-death/) + [tesuji](03-tesuji/) daily · a **few** [joseki](05-joseki/) with the *ideas* · [endgame](08-endgame-yose/) · [whole games](10-whole-games/) played fast · [fighting](07-middlegame-fighting/) · [shape](06-shape/) | grinding full joseki dictionaries · *Mathematical Go* · hyper-precise counting |
+| 🌳 **Dan** | 1d and up | [special shapes](02-life-and-death/special-shapes/) · [positional judgment](09-positional-judgment/) · [AI-era games](10-whole-games/ai-era/) + [study with AI](13-ai-and-tools/) · deep endgame & joseki **choice** | nothing's off-limits — just chase your **measured** weak spots over hoarding more material |
+
+<sub>Ranges are loose on purpose — jump ahead when you're curious, drop back when you're stuck. The one habit that works at *every* level: **a little life & death every day.** Full daily routines → **[study-paths.md](docs/study-paths.md)**.</sub>
+
+<a id="library"></a>
 
 ## 🗺️ The library
 
-Folders are **numbered as a rough learning progression**, but dip in wherever you need. Every
-folder has its own README explaining what's inside and in what order to use it.
+Folders are **numbered as a rough progression** — but dip in anywhere. Each has its own guide.
 
-| # | Topic | What it is · who it's for |
-|---|---|---|
-| 01 | **[Rules & Basics](01-rules-basics/)** | How to play, capturing, first principles · *Beginner* |
-| 02 | **[Life & Death](02-life-and-death/)** (tsumego) | Reading — the single biggest strength skill. `graded/` · `special-shapes/` · `collections/` · *all levels* |
-| 03 | **[Tesuji](03-tesuji/)** | The vocabulary of clever tactical moves · *DDK+* |
-| 04 | **[Opening / Fuseki](04-opening-fuseki/)** | Whole-board opening & direction of play · *DDK+* |
-| 05 | **[Joseki](05-joseki/)** | Corner patterns and, more importantly, how to *use* them · *SDK+* |
-| 06 | **[Shape](06-shape/)** | Efficient stones, vital points, good vs. bad shape · *SDK+* |
-| 07 | **[Middlegame & Fighting](07-middlegame-fighting/)** | Invasion, reduction, attack/defense, capturing races (semeai), sabaki · *SDK+* |
-| 08 | **[Endgame / Yose](08-endgame-yose/)** | Move values & counting — the most underrated points on the board · *SDK+* |
-| 09 | **[Positional Judgment](09-positional-judgment/)** | Counting territory & thickness, whole-board assessment · *Dan* |
-| 10 | **[Whole Games](10-whole-games/)** | Pro & historical records: `classic/` `modern/` `ai-era/` `by-player/` `by-tournament/` · *all* |
-| 11 | **[Handicap](11-handicap/)** | Strategy for both giving and taking stones · *DDK+* |
-| 12 | **[Proverbs & Principles](12-proverbs-principles/)** | Condensed, memorable wisdom · *all* |
-| 13 | **[AI & Tools](13-ai-and-tools/)** | Studying with KataGo / KaTrain / Lizzie, and how to actually use them · *all* |
-| 14 | **[Reference](14-reference/)** | Ranks, rules variants, terminology · *all* |
-| 📚 | **[books/](books/)** | Full-length books & e-books (free / public-domain) + a curated [reading list](docs/recommended-reading.md) |
+| # | Topic | For | | # | Topic | For |
+|:--:|:--|:--:|:--:|:--:|:--|:--:|
+| **[01](01-rules-basics/)** | Rules & Basics | Beg | | **[08](08-endgame-yose/)** | Endgame / Yose | SDK+ |
+| **[02](02-life-and-death/)** | Life & Death ⭐ | all | | **[09](09-positional-judgment/)** | Positional Judgment | Dan |
+| **[03](03-tesuji/)** | Tesuji | DDK+ | | **[10](10-whole-games/)** | Whole Games ⭐ | all |
+| **[04](04-opening-fuseki/)** | Opening / Fuseki | DDK+ | | **[11](11-handicap/)** | Handicap | DDK+ |
+| **[05](05-joseki/)** | Joseki | SDK+ | | **[12](12-proverbs-principles/)** | Proverbs | all |
+| **[06](06-shape/)** | Shape | SDK+ | | **[13](13-ai-and-tools/)** | AI & Tools | all |
+| **[07](07-middlegame-fighting/)** | Middlegame & Fighting | SDK+ | | **[14](14-reference/)** | Reference | all |
 
-**Housekeeping:** `_todo/` — things to finish or convert (e.g. tsumego photos awaiting SGF) ·
-`_inbox/` — new drops waiting to be sorted · `docs/` — guides & indexes.
+📚 **[books/](books/)** free & public-domain books &nbsp;·&nbsp; 🗂️ **[CATALOG.md](CATALOG.md)** everything indexed &nbsp;·&nbsp; 🧭 **[docs/](docs/)** study paths · glossary · provenance
 
----
+<sub>Housekeeping: `_todo/` (e.g. tsumego photos awaiting SGF) · `_inbox/` (new, unsorted drops).</sub>
 
-## 🔎 Find things fast
+<a id="goal"></a>
 
-- **[CATALOG.md](CATALOG.md)** — master index of every item: topic · level · format · rating · license.
-- Markers you'll see everywhere: **⭐ essential / best-in-class** · **⚠ grey licensing** (see [provenance](docs/provenance.md)).
-- **By goal:** reading → `02`,`03` · openings feel random → `04`,`05` · *"I keep losing won games"* → `08` endgame · *"I get slaughtered in fights"* → `07` · *"my stones feel inefficient"* → `06` shape.
+## 🎯 Find by goal
 
-## ▶️ How to open the files
+| I want to… | Go to |
+|:--|:--|
+| **Read deeper / stop misreading** | [02 Life & Death](02-life-and-death/) + [03 Tesuji](03-tesuji/), a little every day |
+| **Fix aimless openings** | [04 Fuseki](04-opening-fuseki/) + play through [Shusaku](10-whole-games/classic/) |
+| **Stop losing won games** | [08 Endgame](08-endgame-yose/) — the most underrated points on the board |
+| **Survive fights** | [07 Fighting](07-middlegame-fighting/) + capturing-race practice |
+| **Make efficient shape** | [06 Shape](06-shape/) — read *Shape Up!* once, cover to cover |
+| **Understand what AI changed** | [10 AI-era games](10-whole-games/ai-era/) + [13 study with AI](13-ai-and-tools/) |
 
-- **`.sgf`** (games & problems): free viewers — **online** [OGS](https://online-go.com), EidoGo, GoKibitz · **desktop** [Sabaki](https://sabaki.yichuanshen.de), CGoban, Drago · plenty of mobile apps. To *analyze* with AI, see **[13-ai-and-tools](13-ai-and-tools/)**.
-- **`.pdf`** — any reader. **`.zip`** — usually the SGF version of a problem set; unzip and open in an SGF app.
+## ▶️ Opening the files
 
-## 🤝 Contributing & licensing
+- **`.sgf`** (games & problems) — free viewers: **online** [OGS](https://online-go.com), EidoGo · **desktop** [Sabaki](https://sabaki.yichuanshen.de), CGoban, Drago. To *analyze with AI*, see **[13 · AI & Tools](13-ai-and-tools/)**.
+- **`.pdf`** any reader &nbsp;·&nbsp; **`.tgz` / `.7z`** game archives — extract with any unzip tool (7-Zip, `tar`).
 
-Contributions welcome — see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+## 🤝 Contributing · ⚖️ License
 
-Game records (the moves) are facts and freely shared the world over. Some scanned problem books
-here are grey-area and are flagged **⚠** in **[provenance](docs/provenance.md)**. If you hold rights
-to something in this repo and want it removed, please open an issue — see **[LICENSE.md](LICENSE.md)**.
+Contributions are welcome — even "here's a link to a great free resource" counts; see
+**[CONTRIBUTING.md](CONTRIBUTING.md)**. Game records are facts and freely shared; a few
+community-shared items are grey and flagged **⚠** in **[docs/provenance.md](docs/provenance.md)**.
+Hold rights to something here and want it gone? Open an issue — see **[LICENSE.md](LICENSE.md)**.
 
----
+<br>
 
-*Rank shorthand used throughout: **Beginner** ≈ 30k–20k · **DDK** (double-digit kyu) 20k–10k · **SDK** (single-digit kyu) 9k–1k · **Dan** 1d and up.*
+<div align="center">
+<sub><b>Rank shorthand</b> — Beginner 30k–20k · DDK 20k–10k · SDK 9k–1k · Dan 1d+ &nbsp;•&nbsp; <b>⭐</b> essential · <b>⚠</b> grey licensing</sub>
+<br><br>
+<sub>Built for everyone who loves this game. Free &amp; open — now pull up a board and get stronger. ●&#8202;○</sub>
+</div>

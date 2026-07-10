@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" role="img" aria-label="Baduk Study Material — a free, open library for Go, Baduk and Weiqi">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1c2b"/>
+      <stop offset="1" stop-color="#102a3e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6b45a"/>
+      <stop offset="1" stop-color="#d98e3b"/>
+    </linearGradient>
+    <radialGradient id="wstone" cx="0.35" cy="0.30" r="0.85">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9d3d9"/>
+    </radialGradient>
+    <radialGradient id="bstone" cx="0.35" cy="0.30" r="0.95">
+      <stop offset="0" stop-color="#3b4750"/>
+      <stop offset="1" stop-color="#0a1015"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="340" rx="20" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <!-- goban motif (right side) -->
+  <g stroke="#9fc3da" stroke-opacity="0.13" stroke-width="1.4" stroke-linecap="round">
+    <line x1="840" y1="55" x2="840" y2="295"/>
+    <line x1="870" y1="55" x2="870" y2="295"/>
+    <line x1="900" y1="55" x2="900" y2="295"/>
+    <line x1="930" y1="55" x2="930" y2="295"/>
+    <line x1="960" y1="55" x2="960" y2="295"/>
+    <line x1="990" y1="55" x2="990" y2="295"/>
+    <line x1="1020" y1="55" x2="1020" y2="295"/>
+    <line x1="1050" y1="55" x2="1050" y2="295"/>
+    <line x1="1080" y1="55" x2="1080" y2="295"/>
+    <line x1="840" y1="55" x2="1080" y2="55"/>
+    <line x1="840" y1="85" x2="1080" y2="85"/>
+    <line x1="840" y1="115" x2="1080" y2="115"/>
+    <line x1="840" y1="145" x2="1080" y2="145"/>
+    <line x1="840" y1="175" x2="1080" y2="175"/>
+    <line x1="840" y1="205" x2="1080" y2="205"/>
+    <line x1="840" y1="235" x2="1080" y2="235"/>
+    <line x1="840" y1="265" x2="1080" y2="265"/>
+    <line x1="840" y1="295" x2="1080" y2="295"/>
+  </g>
+  <g fill="#9fc3da" fill-opacity="0.20">
+    <circle cx="900" cy="115" r="3"/>
+    <circle cx="1020" cy="115" r="3"/>
+    <circle cx="900" cy="235" r="3"/>
+    <circle cx="1020" cy="235" r="3"/>
+    <circle cx="960" cy="175" r="3"/>
+  </g>
+  <!-- a small shape of stones -->
+  <g>
+    <circle cx="930" cy="145" r="13" fill="url(#bstone)"/>
+    <circle cx="990" cy="145" r="13" fill="url(#bstone)"/>
+    <circle cx="960" cy="175" r="13" fill="url(#bstone)"/>
+    <circle cx="960" cy="145" r="13" fill="url(#wstone)" stroke="#aeb9bf" stroke-width="0.5"/>
+    <circle cx="930" cy="175" r="13" fill="url(#wstone)" stroke="#aeb9bf" stroke-width="0.5"/>
+    <circle cx="990" cy="175" r="13" fill="url(#wstone)" stroke="#aeb9bf" stroke-width="0.5"/>
+  </g>
+
+  <!-- title block -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="80" y="150" font-size="62" font-weight="700" fill="#f6f9fb" letter-spacing="0.4">Baduk Study Material</text>
+    <rect x="84" y="171" width="132" height="4" rx="2" fill="url(#gold)"/>
+    <text x="86" y="214" font-size="27" fill="#a9c6d8">A free &amp; open library for Go &#183; 囲碁 &#183; 바둑 &#183; 围棋</text>
+    <text x="86" y="252" font-size="19" fill="#6f93aa" letter-spacing="2">LIFE &amp; DEATH · JOSEKI · PRO GAMES · BOOKS · REFERENCE</text>
+  </g>
+</svg>

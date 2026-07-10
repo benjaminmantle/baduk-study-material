@@ -4,5 +4,6 @@
 effortless. Good vs. bad shape, the empty triangle (avoid!), ponnuki, tiger's mouth, bamboo joint,
 the table shape, and the shape proverbs.
 
-*Being filled.* The classic free intro is **"Shape Up!"** (Charles Matthews & Seong-June Kim) — see
-[recommended-reading](../docs/recommended-reading.md); **Making Good Shape** is the go-to book.
+**Here:** `shape-up_matthews-kim.pdf` ⭐ — *Shape Up!* by Charles Matthews & Seong-June Kim, the
+standard **free** shape primer (good/bad shape, vital points, shape proverbs). CC BY-SA. The go-to
+paid follow-up is *Making Good Shape* — see [recommended-reading](../docs/recommended-reading.md).

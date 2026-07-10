@@ -4,9 +4,11 @@ Corner patterns — and, more importantly, **how to use them**: *why* each move 
 punish it when your opponent deviates. Don't memorize dictionaries; learn a handful deeply and
 understand the ideas.
 
-**Here:** `1-dan-joseki-essentials.sgf` ⭐ — a commented tree of the essential joseki for 1-dan
-and below. A great, non-intimidating starting set.
+**Here**
+- `1-dan-joseki-essentials.sgf` ⭐ — a commented tree of the essential joseki for 1-dan and below.
+  A great, non-intimidating starting set.
+- `kogos-joseki-dictionary.sgf` ⭐ — **Kogo's Joseki Dictionary**, the standard *free* joseki (and
+  proverb) encyclopedia, 1.5 MB of SGF. Open in any viewer and browse by corner.
 
-*Kogo's Joseki Dictionary* (the famous free SGF reference) and AI-era joseki updates are being
-added. Reminder: post-AlphaGo, early 3-3 invasions and immediate attachments changed a lot of
-"standard" joseki.
+Reminder: post-AlphaGo, early 3-3 invasions and immediate attachments overturned a lot of
+"standard" joseki — compare against the [AI-era games](../10-whole-games/ai-era/).

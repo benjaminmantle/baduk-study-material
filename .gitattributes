@@ -1,0 +1,15 @@
+# Keep text tidy, keep binaries byte-exact (critical on Windows/autocrlf)
+* text=auto
+
+*.sgf  text
+*.md   text
+*.txt  text
+
+*.pdf  binary
+*.zip  binary
+*.tgz  binary
+*.gz   binary
+*.7z   binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary

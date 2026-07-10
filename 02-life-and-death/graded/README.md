@@ -1,7 +1,11 @@
 # Graded tsumego — by difficulty
 
-The daily-habit folder: problems ordered from easy to hard so you always have the right level.
+The daily-habit folder: problems ordered easy → hard so you always have the right level.
 
-*Being filled from open SGF sets.* For now, the graded PDFs in
-[`../collections/`](../collections/) (start with `360-basic-tsumego`) do the same job. Aim for
-speed and volume at your level, then step up a tier.
+- **[`gogameguru-weekly/`](gogameguru-weekly/)** ⭐ — 420+ problems as SGF **with full solutions**
+  and pro commentary. `easy/` ≈ DDK–SDK · `intermediate/` ≈ SDK–1d · `hard/` ≈ dan. **Start here.**
+- **[`drills-pdf/`](drills-pdf/)** — printable graded drill books (200 Basic Problems, Bedtime
+  Tsumego, Weiqi L&D Drills — Beginner/Intermediate, Specialized Training 1–6…) for high-volume reps.
+
+Work at a level where you rarely get stuck; chase *speed and volume*, and step up a tier once it
+feels easy. A little every day beats a lot once a week.

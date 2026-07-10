@@ -1,7 +1,16 @@
 # 11 · Handicap
 
-Strategy for **both sides** of a handicap game — how White probes, complicates, and reduces to
-claw back the stones, and how Black stays thick, simple, and cashes the lead without panicking.
-Handicap Go is also the fastest way for a weaker player to learn from a stronger one.
+Strategy for **both sides** of a handicap game — and the fastest way for a weaker player to learn
+directly from a stronger one.
 
-*Being filled.* Reference: *Handicap Go* (Elementary Go series, Vol. 7).
+**Black (taking stones):** stay thick and simple. You start ahead, so don't try to kill — answer
+solidly, keep your groups connected, and happily trade complication for territory. Most handicap
+games are lost by Black *overreaching*, not by playing too safely.
+
+**White (giving stones):** you're behind, so **complicate**. Probe, invade lightly, start fights,
+and lean on Black's inexperience until a mistake appears. Avoid simple, even exchanges — they just
+cash out Black's lead.
+
+Reference: *Handicap Go* (Elementary Go Series, Vol. 7) — see
+[recommended-reading](../docs/recommended-reading.md). *SGF examples welcome — see
+[CONTRIBUTING](../CONTRIBUTING.md).*

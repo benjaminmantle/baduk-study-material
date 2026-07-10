@@ -1,10 +1,14 @@
 # 01 · Rules & Basics
 
-The absolute foundations: how stones capture, connection, eyes and the **two-eye rule**, ko, and
-the first strategic ideas (**corners → sides → center**). For complete beginners (~30k–20k).
+The whole game rests on a handful of rules — you can learn them in about 20 minutes, and they're
+best learned **interactively**, not from files.
 
-**What belongs here:** rule primers, "your first game" walkthroughs, capturing/atari drills, ko
-explanations, and simple whole-board first-move guidance.
+**Learn to play (free, ~20 min):**
+- [OGS — Learn to play Go](https://online-go.com/learn-to-play-go) — click-through, in your browser.
+- [The Interactive Way to Go](https://way-to-go.gitlab.io/) — the classic step-by-step lessons.
+- Then read *The Way to Go* in [books/](../books/) for a friendly, deeper intro.
 
-New? The fastest start is an interactive tutorial (see [13 · AI & Tools](../13-ai-and-tools/)) plus
-a lot of small-board games. Then follow the [beginner study path](../docs/study-paths.md).
+**The ideas that matter first:** capture by removing liberties · two eyes = alive · don't fill your
+own liberties · corners are the easiest territory · when a group is dead, let it go.
+
+Then just **play** — lots of 9×9 and 13×13 — and start [very easy life & death](../02-life-and-death/graded/).

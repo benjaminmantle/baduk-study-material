@@ -3,8 +3,10 @@
 Where most games are actually decided: **invasion, reduction, attack & defense, capturing races
 (semeai), and sabaki** (settling weak stones lightly).
 
-**Here:** `important-invasions.sgf`, `invasions-1.sgf` — common invasion points and how to handle
-them from both sides.
+**Here**
+- `important-invasions.sgf`, `invasions-1.sgf` — common invasion points, handled from both sides.
+- [`booklets-pdf/`](booklets-pdf/) — capturing-race & fighting problem books (Specialized Training
+  in Capturing Races, Fighting and Escaping ×3, Increase Your Fighting Strength ×2).
 
-*Being filled with fighting problem sets and semeai/counting references.* Key idea to drill:
-in a capturing race, **count liberties and know who has sente** before you start filling.
+The habit to drill: in a capturing race, **count liberties and know who has sente** *before* you
+start filling. Most lost fights are lost by filling in the wrong order.

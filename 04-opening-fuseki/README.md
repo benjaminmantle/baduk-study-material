@@ -6,6 +6,7 @@ open area.
 
 **Here:** `blacks-early-cash-fuseki.sgf` — a take-the-money opening approach.
 
-*Being filled with pattern collections (classic + AI-era).* The fastest way to build opening
-sense, though, is to **play through pro games** — see [10 · Whole Games](../10-whole-games/).
-Classic Shusaku games are gold for opening direction.
+The fastest way to build real opening sense isn't theory — it's **playing through pro games**. Head
+to [10 · Whole Games](../10-whole-games/) and run through [Shusaku](../10-whole-games/classic/) for
+classic direction, or the [AI-era games](../10-whole-games/ai-era/) for the modern style; the
+recurring choices teach themselves.
